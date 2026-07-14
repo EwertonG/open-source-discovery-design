@@ -14,20 +14,7 @@ A aplicação busca oferecer informações confiáveis e atualizadas, permitindo
 
 ---
 
-## 3. Público-alvo
-
-Os principais usuários do sistema são:
-
-- Pais e mães;
-- Responsáveis legais;
-- Babás e cuidadores;
-- Profissionais de saúde que acompanham o desenvolvimento infantil.
-
-Como o cuidado com o bebê normalmente é compartilhado entre mais de uma pessoa, é comum que o sistema seja utilizado em diferentes dispositivos e navegadores simultaneamente.
-
----
-
-## 4. Jobs To Be Done (JTBD)
+## 3. Jobs To Be Done (JTBD)
 
 ### Job Principal
 
@@ -39,7 +26,7 @@ O usuário deve sempre visualizar o estado real do cronômetro, mesmo quando ele
 
 ---
 
-## 5. Problema identificado
+## 4. Problema identificado
 
 Durante a análise das issues abertas do projeto foi identificada uma inconsistência relacionada aos cronômetros.
 
@@ -56,7 +43,7 @@ Essa inconsistência gera uma experiência confusa e pode levar o usuário a reg
 
 ---
 
-## 6. Evidências
+## 5. Evidências
 
 Nós selecionamos uma issue pública do repositório BabyBuddy descrevendo exatamente esse comportamento.
 
@@ -68,7 +55,7 @@ A proposta sugerida pelos mantenedores era realizar uma verificação leve do es
 
 ---
 
-## 7. Solução proposta
+## 6. Solução proposta
 
 A solução implementada consistiu em detectar quando a API retorna erro 404 durante a atualização periódica do cronômetro.
 
@@ -82,6 +69,6 @@ Essa abordagem mantém a interface sincronizada com o estado real da aplicação
 
 ---
 
-## 8. Justificativa da escolha
+## 7. Justificativa da escolha
 
-A issue foi escolhida pois, representa um problema real reportado pela comunidade, possui escopo reduzido, melhora a experiência do usuário e exige alterações tanto na interface quanto no código JavaScript;
+A issue foi escolhida pois representa um problema real reportado pela comunidade, possui escopo reduzido, melhora a experiência do usuário e exige alterações tanto na interface quanto no código JavaScript;
