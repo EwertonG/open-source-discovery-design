@@ -8,6 +8,8 @@ Melhorar a experiência de utilização dos cronômetros do BabyBuddy, garantind
 
 # História 1 — Indicar quando um timer já foi encerrado
 
+**Implementada - Origem do Pull Request**
+
 Como usuário do BabyBuddy,
 
 Quero ser informado quando um timer já tiver sido encerrado em outra sessão,
