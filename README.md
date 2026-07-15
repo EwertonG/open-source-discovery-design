@@ -28,7 +28,7 @@ Issue selecionada:
 
 Pull Request:
 
-- ***
+- https://github.com/babybuddy/babybuddy/pull/1089
 
 # Tecnologias
 
