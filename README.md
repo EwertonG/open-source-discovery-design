@@ -41,6 +41,18 @@ Pull Request:
 
 ---
 
+## Diagramas UML
+
+Como parte da modelagem do MVP, foram desenvolvidos os seguintes diagramas utilizando Mermaid:
+
+- Diagrama de Classes
+- Diagrama de Sequência
+- Diagrama de Componentes
+
+Todos os arquivos encontram-se versionados na pasta `diagrams` deste repositório.
+
+---
+
 # Resultado esperado
 
 A melhoria proposta busca manter a interface sincronizada com o estado real do cronômetro quando ele é encerrado em outra aba ou dispositivo, proporcionando uma experiência de uso mais consistente.
